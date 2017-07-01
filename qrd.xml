@@ -6,13 +6,13 @@
            review="review.cyanogenmod.org" />
 
   <remote name="caf"
-          fetch="git://codeaurora.org"
+          fetch="https://codeaurora.org"
           review="codeaurora.org" />
 
   <default remote="caf"
            revision="LA.BR.1.2.3"
            sync-c="true"
-           sync-j="4" />
+           sync-j="6" />
 
   <project groups="pdk" name="device/asus/deb" revision="0e32bac541b31816a435562284045268f0c31a19" upstream="LA.BR.1.2.3"/>
 
