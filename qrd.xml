@@ -3,10 +3,10 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="review.lineageos.org" />
 
   <remote name="caf"
-          fetch="https://codeaurora.org"
+          fetch="https://beijing.codeaurora.org"
           review="codeaurora.org" />
 
   <default remote="caf"
