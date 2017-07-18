@@ -542,7 +542,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
-  <include name="crowdin.xml" />
+  <!--include name="crowdin.xml" --/>
 	
 <!-- My Devices -->
   <include name="snippets/redmi3-dev.xml" />
