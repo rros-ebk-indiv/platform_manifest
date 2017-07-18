@@ -1,12 +1,11 @@
 <manifest>
-  <remote name="rr" fetch="https://www.github.com/ResurrectionRemix" revision="marshmallow" />
-  <default remote="rr" sync-c="true" sync-f="true" sync-j="5" />
-  <project path="rr_crowdin" name="rr_crowdin" remote="rr" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rr" />
-  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" groups="pdk-fs" remote="rr"/>
-  <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
-  <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
-  <project path="manifest" name="platform_manifest" remote="rr" />
+  <remote name="2rr" fetch="https://www.github.com/ResurrectionRemix" revision="marshmallow" />
+  <default remote="2rr" sync-c="true" sync-f="true" sync-j="4" />
+  <project path="rr_crowdin" name="rr_crowdin" remote="2rr" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="2rr" />
+  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" groups="pdk-fs" remote="2rr"/>
+  <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="2rr" />
+  <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="2rr" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="2rr" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="2rr" />
 </manifest>
