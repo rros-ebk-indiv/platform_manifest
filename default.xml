@@ -7,10 +7,10 @@
            revision="refs/tags/android-6.0.1_r78" />
 
   <remote  name="github"
-                 fetch="git://www.github.com" />
+                 fetch="http://www.github.com" />
  
    <remote name="cm"
-                fetch="git://github.com/LineageOS"
+                fetch="http://github.com/LineageOS"
                 revision="cm-13.0"
                 review="review.lineageos.org" />
 
@@ -18,15 +18,15 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="hs"
-           fetch="git://github.com/HridayHS"
+           fetch="http://github.com/HridayHS"
            revision="marshmallow" />
 
   <remote  name="rr"
-	   fetch="git://github.com/ResurrectionRemix"
+	   fetch="http://github.com/ResurrectionRemix"
 	   revision="marshmallow" />
 
   <remote name="rr-d"
-	  fetch="git://github.com/ResurrectionRemix-Devices"
+	  fetch="http://github.com/ResurrectionRemix-Devices"
 	  revision="marshmallow" />
 
   <remote name="bucket"
