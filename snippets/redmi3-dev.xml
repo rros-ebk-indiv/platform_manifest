@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="githubm"
-           fetch="git://github.com/rros-ebk-indiv/"
+           fetch="https://github.com/rros-ebk-indiv/"
            />
   <project path="device/xiaomi/ido" name="android_device_xiaomi_ido" remote="githubm" revision="cm-13.0" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="githubm" revision="cm-13.0" />
