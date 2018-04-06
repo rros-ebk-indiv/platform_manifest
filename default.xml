@@ -10,7 +10,7 @@
            revision="oreo" />
            
   <remote  name="or"
-           fetch="https://github.com/omnirom
+           fetch="https://github.com/omnirom"
            revision="oreo" />
 
   <remote  name="rr-devices"
