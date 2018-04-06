@@ -8,6 +8,10 @@
   <remote  name="rr"
            fetch="https://github.com/ResurrectionRemix"
            revision="oreo" />
+           
+  <remote  name="or"
+           fetch="https://github.com/omnirom
+           revision="oreo" />
 
   <remote  name="rr-devices"
            fetch="https://github.com/ResurrectionRemix-Devices"
