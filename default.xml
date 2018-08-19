@@ -16,7 +16,7 @@
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
-           sync-j="6" />
+           sync-j="3" />
 
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
@@ -156,7 +156,6 @@
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" remote="aosp" />
   <project path="external/jemalloc" name="LineageOS/android_external_jemalloc" groups="pdk" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk" remote="aosp" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed,pdk-fs" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk" remote="aosp" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk" remote="aosp" />
@@ -245,7 +244,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" remote="aosp" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" remote="aosp" revision="refs/tags/android-7.1.2_r17"/>
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
@@ -312,7 +310,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/ml" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -433,7 +431,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,tradefed" clone-depth="1" remote="aosp" />
