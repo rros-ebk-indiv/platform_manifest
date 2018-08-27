@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rr" fetch="ssh://git@github.com/ResurrectionRemix" revision="oreo" />
-  <default remote="rr" sync-c="true" sync-j="8" sync-f="true" />
+  <default remote="rr" sync-c="true" sync-j="2" sync-f="true" />
   <project path="manifest" name="platform_manifest" remote="rr" />
   <project path="rr_crowdin" name="rr_crowdin" remote="rr" />
   <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
