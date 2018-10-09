@@ -8,7 +8,8 @@
   <remote  name="rr"
            fetch="https://github.com/"
            revision="oreo"
-	   review="gerrit.resurrectionremix.com" />
+	   review="gerrit.resurrectionremix.com"
+	   sync-j="2" />
 
   <remote  name="rr-devices"
            fetch="https://github.com/ResurrectionRemix-Devices"
@@ -20,7 +21,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-8.1.0_r47" />
+           revision="refs/tags/android-8.1.0_r47"
+	   sync-j="2" />
 
   <default revision="refs/heads/lineage-15.1"
            remote="github"
