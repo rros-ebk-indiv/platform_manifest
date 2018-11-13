@@ -21,7 +21,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-8.1.0_r47"
+
+           revision="refs/tags/android-8.1.0_r50"
 	   sync-j="2" />
 
   <default revision="refs/heads/lineage-15.1"
